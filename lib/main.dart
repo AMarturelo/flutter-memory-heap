@@ -60,6 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: TextField(
+            enableSuggestions: false,
+            autocorrect: false,
             controller: _controller,
           ),
         ),
